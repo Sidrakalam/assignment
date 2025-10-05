@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume Builder | Infotech Wizard</title>
+  <link rel="stylesheet" href="main.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script defer>
+    document.addEventListener('DOMContentLoaded', () => {
+      const menuToggle = document.getElementById('menu-toggle');
+      const navLinks = document.querySelector('.nav-links');
+      menuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+      });
+    });
+  </script>
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="images/logo.png" alt="Company Logo">
+      <div class="logotext">
+        <h2>COMPANY</h2>
+        <p>business tagline</p>
+      </div>
+    </div>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#"><i class="fas fa-info-circle"></i> About Us</a></li>
+        <li><a href="#"><i class="fas fa-briefcase"></i> Our Services</a></li>
+        <li><a href="#"><i class="fas fa-tags"></i> Pricing</a></li>
+        <li><a href="#"><i class="fas fa-question-circle"></i> FAQ</a></li>
+        <li><a href="#" class="mobile-btn"><i class="fas fa-phone"></i> Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <button class="quote-btn">Get A Quote</button>
+
+    <div class="menu-toggle" id="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero">
+    <div class="hero-left">
+      <h1>Your Resume</h1>
+      <h1><span>Deserves A Yes</span> Let’s</h1>
+      <h1>Make It Happen</h1>
+
+      <p>If your resume isn’t getting responses, it’s time for an upgrade.<br>
+        Get an ATS-optimized resume crafted by HR experts to help you<br>
+        land more interviews. Our resumes are designed to get your foot<br>
+        in the door and place your name at the top of the shortlist.
+      </p>
+
+      <div class="buttons">
+        <button class="btn1">Resume Packages</button>
+        <button class="btn2">Contact Us</button>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <img src="images/rating.png" alt="Rating" class="rating" />
+      <img src="images/girl.png" alt="Girl" class="girl-img">
+    </div>
+  </section>
+
+  <!-- ========== WHAT YOU GET SECTION ========== -->
+  <section class="whatyouget">
+    <div class="title">
+      <button class="tag">What You Get</button>
+      <h2>You’re Not Just <span>Another Applicant</span> And Your Resume Shouldn’t Look Like One</h2>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <img src="images/1st.png" alt="">
+        <h3>A Resume Format That Gets You Interviews</h3>
+        <p>Get a professionally written, keyword-optimized resume that lands in recruiter inboxes.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/2nd.png" alt="">
+        <h3>A Cover Letter Style That Stands Out Strong</h3>
+        <p>Stand out with a cover letter that speaks directly to the role and reflects your strengths.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/3rd.png" alt="">
+        <h3>A LinkedIn Profile That Works For You</h3>
+        <p>Attract the right eyes, start conversations, and show up in recruiter searches.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/4th.png" alt="">
+        <h3>An Interview Strategy That Builds Confidence</h3>
+        <p>Interview preparation with real HR professionals so you speak clearly and confidently.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FontAwesome Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
